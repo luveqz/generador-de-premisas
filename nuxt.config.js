@@ -16,7 +16,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    titleTemplate: '%s | Máquina de Ficciones',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -30,6 +30,8 @@ export default {
   ** Global CSS
   */
   css: [
+    'normalize.css/normalize.css',
+    '@/assets/css/main.scss'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -66,6 +68,6 @@ export default {
   serverMiddleware: [
     redirectSSL.create({
       enabled: process.env.NODE_ENV === 'production'
-     }),
+    })
   ]
 }

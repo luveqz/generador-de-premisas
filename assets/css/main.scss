@@ -1,0 +1,62 @@
+// COLORS
+$white: #FFFFFF;
+$gray: #E9EBED;
+$black: #423B3C;
+
+$darkpink: #5B1723;
+$middlepink: #CC4B62;
+$lightpink: #DE8494;
+
+// DISTANCES
+$radius: 3px;
+
+// FONTS
+@font-face {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  src: url("~assets/fonts/neucha/neucha-v11-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Neucha"),
+       url("~assets/fonts/neucha/neucha-v11-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("~assets/fonts/neucha/neucha-v11-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+       url("~assets/fonts/neucha/neucha-v11-latin-regular.woff") format("woff"), /* Modern Browsers */
+       url("~assets/fonts/neucha/neucha-v11-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("~assets/fonts/neucha/neucha-v11-latin-regular.svg#Neucha") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~assets/fonts/patrick-hand/patrick-hand-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Patrick Hand'), local('PatrickHand-Regular'),
+       url('~assets/fonts/patrick-hand/patrick-hand-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('~assets/fonts/patrick-hand/patrick-hand-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('~assets/fonts/patrick-hand/patrick-hand-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('~assets/fonts/patrick-hand/patrick-hand-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('~assets/fonts/patrick-hand/patrick-hand-v13-latin-regular.svg#PatrickHand') format('svg'); /* Legacy iOS */
+}
+
+// GENERAL SETTINGS
+html {
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* {
+  font-family: "Neucha", "Open Sans", Arial, "Sans-Serif";
+  font-size: 19px;
+  color: $black;
+  font-weight: 300;
+}
