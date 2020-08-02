@@ -1,5 +1,6 @@
 {
   "name": "maquinadeficciones",
+  "description": "Una herramienta para enfrentar la página en blanco.",
   "version": "1.0.0",
   "private": true,
   "scripts": {

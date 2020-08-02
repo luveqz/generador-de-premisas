@@ -17,9 +17,13 @@ export default {
   */
   head: {
     titleTemplate: '%s | Máquina de Ficciones',
+    htmlAttrs: {
+      lang: 'es'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property: 'og:image', content: '/logo.png' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
