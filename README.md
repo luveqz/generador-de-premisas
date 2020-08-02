@@ -1,4 +1,6 @@
-# Mi Página en Blanco
+# Máquina de Ficciones
+
+A web tool for writers' block.
 
 ## Build Setup
 
